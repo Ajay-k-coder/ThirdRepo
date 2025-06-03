@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rps.css">
+    <link rel="stylesheet"  media="screen and (max-width:600px)" href="rps1.css">
+</head>
+<body>
+    <h1>
+        Rock Paper Scissors Game
+    </h1>
+    <div class="container">
+
+        <div class="your-choice choices">
+            <div class="choice">
+                <p> Your Choice</P>
+                <!-- <image src="image/Thinking Woman Photos - Download Free High-Quality Pictures _ Freepik.jpg" alt="rock" class="rock">      -->
+                    <image src="image/download (3).jpg" alt="scissors" id="yourschoice">
+            </div>
+        </div>
+        <div class="computer-choice choices">
+            <div class="choice">
+                <p>Comp Choice</p>
+                <image src="image/robot.jpg" alt="scissors" id="compschoice">
+            </div>
+        </div>
+
+    </div>
+    <div class="yourchoice">
+        <button class="btn" id="rock"><image src="image/rock.png" alt="rock" class="rock"> </button>
+        <button class="btn" id="paper"><image src="image/paper.png" alt="paper" class="paper"></image></button>
+        <button class="btn" id="scissor"> <image src="image/scissors.png" alt="scissors" class="scissors" id="scissorimg"></image></button>
+    </div>
+    <div class="scorecard">
+        <div class="result">
+        
+        <h2>Result</h2>
+        <p id="result"></p>
+        </div>
+        <div class="score">
+        <p> you </p><p id="userscore">000</p>
+        <p>Computer</p><p id="computerscore">000</p>
+        </div>
+    </div>
+    <button id ="restart" class="again">
+        ReStart Game
+    </button>
+    <script src="rps.js"></script>
+    
+
+   
+</body>
+</html>
